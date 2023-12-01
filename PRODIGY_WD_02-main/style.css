@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'poppins', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,19 +12,38 @@ body {
 }
 
 #display {
-    font-size: 2em;
+    font-size: 5rem;
     margin: 10px;
 }
 
 button {
-    font-size: 1em;
-    margin: 5px;
-    padding: 8px;
+    font-size: 2rem;
+    margin: .5rem 1rem;
+    padding: .5rem 2rem;
     cursor: pointer;
+    background:none;
+    border: 3px solid #fff;
+    color:inherit;
+    outline:none;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  
 }
+/*button:hover {
+  box-shadow: 0 0 10px 0 #ffffff inset, 0 0 20px 2px #fff;
+  border: 3px solid #fff;
+  
+}*/
 
+
+body{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:#fff;
+}
 #laps {
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
+    font-size:2rem;
 }
